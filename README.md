@@ -3,7 +3,8 @@
 ## 概要
 
 球状黒鉛鋳鉄品（FCD）の組織画像について、機械学習によって判定した黒鉛形状を基にして黒鉛球状化率を求めるプログラムです。
-使い方
+
+## 使い方
 
 1. **AllData_Classification.py, 3-4Data_Classification.py**を適当なフォルダに置きます。
 2. **AllData_Classification.py, 3-4Data_Classification.py**の19行目以降の環境設定の**iDir**と**min_grainsize**の値を設定します。<br>
@@ -19,7 +20,7 @@
 データの割合やコラム数は、機械学習の際に用いたデータセットに関するものです。
 データの割合やコラム数によって、用いるpklファイルが異なります。27、102、104行目を変更する場合は気を付けてください。
 
-##pklファイルについて
+## pklファイルについて
 
 - AllData_final_lda_model_9columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の全ての黒鉛の画像の形状データをデータセットにして学習したモデル（ldaモデル）です。
 - AllData_final_lightgbm_model_3columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の全ての黒鉛の画像の形状データのうち3個のパラメータ（Conv, AR, CSFm）をデータセットにして学習したモデル（lightgbmモデル）です。
