@@ -26,10 +26,10 @@
 
 ## pklファイルについて
 
-- AllData_final_lda_model_9columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の全ての黒鉛の画像の形状データをデータセットにして学習したモデル（ldaモデル）です。
-- AllData_final_lightgbm_model_3columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の全ての黒鉛の画像の形状データのうち3個のパラメータ（Conv, AR, CSFm）をデータセットにして学習したモデル（lightgbmモデル）です。
-- 3-4Data_final_et_model_9columns...ISO945-1 Fig.1のⅠ～Ⅵの各図の大きい順に3/4の黒鉛の画像の形状データをデータセットにして学習したモデル（etモデル）です。
-- 3-4Data_final_gbc_model_3columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の大きい順に3/4の黒鉛の画像の形状データのうち3個のパラメータ（Round, CSFg, MR）をデータセットにして学習したモデル（bgcモデル）です。
+- AllData_final_lda_model_9columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の全ての黒鉛の形状データをデータセットにして学習したモデル（ldaモデル）です。
+- AllData_final_lightgbm_model_3columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の全ての黒鉛の形状データのうち3個のパラメータ（Conv, AR, CSFm）をデータセットにして学習したモデル（lightgbmモデル）です。
+- 3-4Data_final_et_model_9columns...ISO945-1 Fig.1のⅠ～Ⅵの各図の大きい順に3/4の黒鉛の形状データをデータセットにして学習したモデル（etモデル）です。
+- 3-4Data_final_gbc_model_3columns.pkl...ISO945-1 Fig.1のⅠ～Ⅵの各図の大きい順に3/4の黒鉛の形状データのうち3個のパラメータ（Round, CSFg, MR）をデータセットにして学習したモデル（bgcモデル）です。
 
 ## ご利用に関して
 
@@ -40,9 +40,6 @@
 - VSC 1.7.3.1
 - Python 3.8.10
 - OpenCV 4.5.4
-
-
-
 
 ## 注意点
 JIS G5502-2007では、黒鉛形状ⅤとⅥを識別するためのしきい値は規定していません。評価者が決める必要があります。
