@@ -244,13 +244,13 @@ def main():
     # Num1～6をファイル保存
     now = datetime.datetime.now()
     if Col == 9:
-        with open(str(os.path.dirname(filenames[0])) + "/result_{0:%Y%m%d%H%M}_nodularity(Machine Learning)_AllData_9columns".format(now) + ".csv", mode='w') as f2
+        with open(str(os.path.dirname(filenames[0])) + "/result_{0:%Y%m%d%H%M}_nodularity(Machine Learning)_AllData_9columns".format(now) + ".csv", mode='w') as f2:
             print("ファイル名, Ⅰの個数, Ⅱの個数, Ⅲの個数, Ⅳの個数, Ⅴの個数, Ⅵの個数, 球状化率(%)", file=f2)  # ファイル名
             for i in range(len(filenames)):
                print("{}, {}, {}, {}, {}, {}, {}, {:.2f}".format(filenames[i], Num1[i], Num2[i], Num3[i], Num4[i], Num5[i], Num6[i], Nodularity_ISO[i]), file=f2)  # ファイル名
         
     elif Col == 3:
-        with open(str(os.path.dirname(filenames[0])) + "/result_{0:%Y%m%d%H%M}_nodularity(Machine Learning)_AllData_3columns".format(now) + ".csv", mode='w') as f2
+        with open(str(os.path.dirname(filenames[0])) + "/result_{0:%Y%m%d%H%M}_nodularity(Machine Learning)_AllData_3columns".format(now) + ".csv", mode='w') as f2:
             print("ファイル名, Ⅰの個数, Ⅱの個数, Ⅲの個数, Ⅳの個数, Ⅴの個数, Ⅵの個数, 球状化率(%)", file=f2)  # ファイル名
             for i in range(len(filenames)):
                print("{}, {}, {}, {}, {}, {}, {}, {:.2f}".format(filenames[i], Num1[i], Num2[i], Num3[i], Num4[i], Num5[i], Num6[i], Nodularity_ISO[i]), file=f2)  # ファイル名
